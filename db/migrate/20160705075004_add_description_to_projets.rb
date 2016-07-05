@@ -1,5 +1,5 @@
 class AddDescriptionToProjets < ActiveRecord::Migration[5.0]
   def change
-    add_column :projets, :description, :text
+    add_column :projects, :description, :text
   end
 end
